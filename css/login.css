@@ -8,6 +8,37 @@
     body{
         background: #3dff1b;
     }
+    section{
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-top: 60px;
+        background: red;
+    }
+    .campo{
+        width: 90%;
+        height: 45px;
+        margin-left: 5%;
+        margin-top: 20px;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        text-indent: 8px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color:#333;
+        font-size: 1.3em;
+    }
+    .campo:focus{
+        background: #ccc;
+    }
+    button{
+        width: 25%;
+        height: 45px;
+        margin-left: 5%;
+        margin-top: 20px;
+        border: 0;
+        border-radius: 40px;
+    }
 }
 
 /* médios (tablets e celular deitado, 768px e maior) */
