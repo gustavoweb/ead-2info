@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    
-    <section>
+    <div id="main">
+        <section>
         <h2>EAD Login</h2>
-        <form action="#">
-            <input type="text" name="usuario" class="campo" placeholder="Usuário" required>
-            <input type="password" name="senha" class="campo" placeholder="Senha" required>
-            <button>ENTRAR</button>
-        </form>
-        <p>ou</p>
-        <a href="#">Cadastre-Se</a>
-    </section>
+            <form action="#">
+                <input type="text" name="usuario" class="campo" placeholder="E-MAIL" required>
+                <input type="password" name="senha" class="campo" placeholder="SENHA" required>
+                <button>ENTRAR</button>
+            </form>
+            <p>ou</p>
+            <a href="#">CRIE UMA CONTA</a>
+        </section>
+    </div>
 
 </body>
 </html>
