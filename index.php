@@ -16,7 +16,7 @@
                 <button>ENTRAR</button>
             </form>
             <p>ou</p>
-            <a href="#">CRIE UMA CONTA</a>
+            <a href="cad-usuario.php" target="_self">CRIE UMA CONTA</a>
         </section>
     </div>
 
